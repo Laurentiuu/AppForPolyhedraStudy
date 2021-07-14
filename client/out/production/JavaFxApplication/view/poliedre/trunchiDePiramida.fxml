@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="540.0" prefWidth="758.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <Group layoutX="-152.0" layoutY="45.0">
+            <children>
+                <Line endX="511.3999938964844" endY="195.39999389648438" startX="447.29290771484375" startY="341.933349609375" strokeWidth="2.0" />
+                <Line endX="463.5999755859375" endY="345.9333190917969" layoutX="-13.0" layoutY="-6.0" startX="509.4808349609375" startY="288.9190979003906" strokeWidth="2.0" style="-fx-stroke-dash-array: 5;" />
+                <Line endX="466.89508056640625" endY="304.5048522949219" layoutX="31.0" layoutY="-23.0" startX="625.4666748046875" startY="304.79998779296875" strokeWidth="2.0" style="-fx-stroke-dash-array: 5;" />
+                <Line endX="500.20001220703125" endY="205.26666259765625" layoutX="32.0" layoutY="-36.0" startX="465.89508056640625" startY="317.5048522949219" strokeWidth="2.0" style="-fx-stroke-dash-array: 5;" />
+                <Line endX="742.066650390625" endY="264.33331298828125" layoutX="-84.0" layoutY="18.0" startX="694.4141845703125" startY="324.9333190917969" strokeWidth="2.0" />
+                <Line endX="601.0" endY="317.9333190917969" layoutX="8.0" layoutY="25.0" startX="440.29290771484375" startY="317.933349609375" strokeWidth="2.0" />
+                <Line endX="646.2000122070312" endY="319.26666259765625" layoutX="-50.0" layoutY="-150.0" startX="707.880859375" startY="430.09063720703125" strokeWidth="2.0" />
+                <Line endX="436.0" endY="198.0" layoutX="141.0" layoutY="-1.0" startX="469.4141845703125" startY="342.51910400390625" strokeWidth="2.0" />
+                <Line endX="452.800048828125" endY="191.39288330078125" layoutX="101.0" layoutY="-9.0" startX="453.01312255859375" startY="316.3999938964844" strokeWidth="2.0" style="-fx-stroke-dash-array: 5;" />
+                <Line endX="363.87872314453125" endY="335.3475646972656" layoutX="83.0" layoutY="9.0" startX="574.880859375" startY="272.65240478515625" strokeWidth="2.0" style="-fx-stroke-dash-array: 5;" />
+                <Line endX="404.89508056640625" endY="262.5048522949219" layoutX="93.0" layoutY="19.0" startX="517.4141845703125" startY="322.51910400390625" strokeWidth="2.0" style="-fx-stroke-dash-array: 5;" />
+            <Line endX="664.0" endY="140.53335571289062" layoutX="-67.0" layoutY="30.0" startX="644.0" startY="165.93331909179688" strokeWidth="2.0" />
+            <Line endX="563.2666625976562" endY="304.79998779296875" layoutX="-30.0" layoutY="-135.0" startX="625.4666748046875" startY="304.79998779296875" strokeWidth="2.0" />
+            <Line endX="530.4000244140625" endY="322.3475341796875" layoutX="-20.0" layoutY="-125.0" startX="552.2666625976562" startY="295.79998779296875" strokeWidth="2.0" />
+            <Line endX="557.5858154296875" endY="162.3475341796875" layoutX="18.0" layoutY="35.0" startX="493.3999938964844" startY="162.3475341796875" strokeWidth="2.0" />
+            <Line endX="429.73333740234375" endY="141.86666870117188" layoutX="103.0" layoutY="29.0" startX="473.5858154296875" startY="167.3475341796875" strokeWidth="2.0" style="-fx-stroke-dash-array: 5;" />
+            <Line endX="399.814208984375" endY="154.98577880859375" layoutX="113.0" layoutY="39.0" startX="481.78582763671875" startY="131.79998779296875" strokeWidth="2.0" style="-fx-stroke-dash-array: 5;" />
+                <Label layoutX="484.0" layoutY="273.0" prefHeight="17.0" prefWidth="14.0" text="D" />
+                <Label layoutX="548.0" layoutY="316.0" text="O" />
+                <Label layoutX="615.0" layoutY="337.0" text="B" />
+            <Label layoutX="542.0" layoutY="182.0" text="Oț" />
+            <Label layoutX="496.0" layoutY="184.0" text="A'" />
+            <Label layoutX="582.0" layoutY="189.0" text="B'" />
+            <Label layoutX="601.0" layoutY="159.0" prefHeight="17.0" prefWidth="14.0" text="C'" />
+            <Label layoutX="515.0" layoutY="157.0" prefHeight="17.0" prefWidth="14.0" text="D'" />
+            </children>
+        </Group>
+        <Group accessibleRole="NODE" layoutX="30.0" layoutY="125.0">
+            <children>
+                <Label accessibleRole="PARENT" prefHeight="33.0" prefWidth="158.0" text="Al =">
+                    <font>
+                        <Font name="System Bold" size="14.0" />
+                    </font>
+                </Label>
+                <Label accessibleRole="PARENT" layoutY="20.0" prefHeight="33.0" prefWidth="158.0" text="Ab =">
+                    <font>
+                        <Font name="System Bold" size="14.0" />
+                    </font>
+                </Label>
+                <Label accessibleRole="PARENT" layoutY="40.0" prefHeight="33.0" prefWidth="158.0" text="At =">
+                    <font>
+                        <Font name="System Bold" size="14.0" />
+                    </font>
+                </Label>
+                <Label accessibleRole="PARENT" layoutY="60.0" prefHeight="33.0" prefWidth="158.0" text="V =">
+                    <font>
+                        <Font name="System Bold" size="14.0" />
+                    </font>
+                </Label>
+            </children>
+        </Group>
+      <Group fx:id="textTrunchi" layoutX="11.0" layoutY="14.0">
+         <children>
+              <Label layoutY="20.0" text="situat sub planul de sectiune.">
+                  <font>
+                      <Font size="14.0" />
+                  </font>
+            </Label>
+              <Label layoutY="40.0" text="- Trunchiul de piramidă are fața laterală un trapez isoscel ortodiagonal">
+                  <font>
+                      <Font size="14.0" />
+                  </font>
+            </Label>
+              <Label layoutY="60.0" text="- Baza superioară și baza inferioară sunt pătrate.">
+                  <font>
+                      <Font size="14.0" />
+                  </font>
+            </Label>
+              <Label text="- Trunchiul de piramidă este corpul geometric obținut prin secționarea unei piramide printr-un plan paralel cu baza,">
+                  <font>
+                      <Font size="14.0" />
+                  </font>
+              </Label>
+              <Label layoutX="346.0" layoutY="158.0" text="Trunchi de piramidă">
+                  <font>
+                      <Font name="System Bold" size="12.0" />
+                  </font>
+              </Label>
+            <Label layoutY="80.0" text="- Trunchiul de piramidă are: 8 vârfuri, 6 fețe și 12 muchii. ">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </Group>
+        <Label layoutX="285.0" layoutY="380.0" text="A" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="285.0" layoutY="405.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/9.PNG" />
+         </image>
+      </ImageView>
+          <Label layoutX="511.0" layoutY="319.0" prefHeight="17.0" prefWidth="14.0" text="C" />
+    </children>
+</AnchorPane>

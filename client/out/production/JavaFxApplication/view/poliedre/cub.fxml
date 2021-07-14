@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="540.0" prefWidth="758.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <Group layoutX="-157.0" layoutY="71.0">
+            <children>
+                <Line endX="447.29290771484375" endY="194.1141815185547" startX="447.29290771484375" startY="341.933349609375" strokeWidth="2.0" />
+                <Line endX="447.70709228515625" endY="338.9071044921875" startX="478.492919921875" startY="305.6929016113281" strokeWidth="2.0" style="-fx-stroke-dash-array: 5;" />
+                <Line endX="448.20709228515625" endY="327.4071044921875" layoutX="31.0" layoutY="-23.0" startX="589.5333251953125" startY="327.4071044921875" strokeWidth="2.0" style="-fx-stroke-dash-array: 5;" />
+                <Line endX="447.5" endY="196.00001525878906" layoutX="32.0" layoutY="-36.0" startX="448.0" startY="335.5" strokeWidth="2.0" style="-fx-stroke-dash-array: 5;" />
+                <Line endX="450.26422119140625" endY="330.49285888671875" layoutX="30.0" layoutY="-170.0" startX="592.1475219726562" startY="331.0786437988281" strokeWidth="2.0" />
+                <Line endX="449.0" endY="340.4071044921875" layoutX="-1.0" layoutY="-147.0" startX="480.26422119140625" startY="308.49285888671875" strokeWidth="2.0" />
+                <Line endX="731.6666870117188" endY="287.4071044921875" layoutX="-108.0" layoutY="18.0" startX="697.5333251953125" startY="323.933349609375" strokeWidth="2.0" />
+                <Line endX="208.26666259765625" endY="199.13333129882812" layoutX="240.0" layoutY="-4.0" startX="347.29290771484375" startY="199.13333129882812" strokeWidth="2.0" />
+                <Line endX="580.5333251953125" endY="317.933349609375" layoutX="8.0" layoutY="25.0" startX="440.29290771484375" startY="317.933349609375" strokeWidth="2.0" />
+                <Line endX="687.1475219726562" endY="319.0786437988281" layoutX="-65.0" layoutY="-158.0" startX="654.2929077148438" startY="352.1333312988281" strokeWidth="2.0" />
+                <Line endX="673.1475219726562" endY="312.0786437988281" layoutX="-50.0" layoutY="-150.0" startX="673.1475219726562" startY="452.91912841796875" strokeWidth="2.0" />
+            <Line endX="447.29290771484375" endY="196.13333129882812" layoutX="141.0" layoutY="-1.0" startX="447.29290771484375" startY="341.933349609375" strokeWidth="2.0" />
+                <Label layoutX="466.0" layoutY="291.0" prefHeight="17.0" prefWidth="14.0" text="D" />
+                <Label layoutX="432.0" layoutY="190.0" text="A'" />
+                <Label layoutX="593.0" layoutY="190.0" text="B'" />
+                <Label layoutX="629.0" layoutY="142.0" prefHeight="17.0" prefWidth="14.0" text="C'" />
+                <Label layoutX="471.0" layoutY="142.0" prefHeight="17.0" prefWidth="14.0" text="D'" />
+                <Label layoutX="629.0" layoutY="297.0" prefHeight="17.0" prefWidth="14.0" text="C" />
+                <Label layoutX="594.0" layoutY="335.0" text="B" />
+              <Label layoutX="540.0" layoutY="129.0" text="Cub">
+                  <font>
+                      <Font name="System Bold" size="12.0" />
+                  </font>
+              </Label>
+            </children>
+        </Group>
+        <Group accessibleRole="NODE" layoutX="30.0" layoutY="125.0">
+            <children>
+                <Label accessibleRole="PARENT" prefHeight="33.0" prefWidth="158.0" text="Al =">
+                    <font>
+                        <Font name="System Bold" size="14.0" />
+                    </font>
+                </Label>
+                <Label accessibleRole="PARENT" layoutY="20.0" prefHeight="33.0" prefWidth="158.0" text="Ab =">
+                    <font>
+                        <Font name="System Bold" size="14.0" />
+                    </font>
+                </Label>
+                <Label accessibleRole="PARENT" layoutY="40.0" prefHeight="33.0" prefWidth="158.0" text="At =">
+                    <font>
+                        <Font name="System Bold" size="14.0" />
+                    </font>
+                </Label>
+                <Label accessibleRole="PARENT" layoutY="60.0" prefHeight="33.0" prefWidth="158.0" text="V =">
+                    <font>
+                        <Font name="System Bold" size="14.0" />
+                    </font>
+                </Label>
+            </children>
+        </Group>
+      <Group fx:id="textCub" layoutX="11.0" layoutY="14.0">
+         <children>
+              <Label layoutY="20.0" text="- Cubul este paralelipipedul dreptunghic cu toate muchiile egale.">
+                  <font>
+                      <Font size="14.0" />
+                  </font>
+            </Label>
+              <Label layoutY="40.0" text="- Fețele unui cub au formă de pătrat și sunt congruente, iar aria oricărei fețe este egală cu pătratul laturii; figura are">
+                  <font>
+                      <Font size="14.0" />
+                  </font>
+            </Label>
+              <Label layoutY="60.0" text="șase fețe congruente, deci aria totală este 6 ori pătratul laturii. ">
+                  <font>
+                      <Font size="14.0" />
+                  </font>
+            </Label>
+              <Label layoutY="80.0" text="- Un cub este un corp geometric (tridimensional) care are din punct de vedere constructiv: 6 fețe, 12 muchii, 8 vărfuri.">
+                  <font>
+                      <Font size="14.0" />
+                  </font>
+            </Label>
+              <Label text="- Cubul sau hexaedrul este un poliedru limitat de șase fețe de formă pătrată.">
+                  <font>
+                      <Font size="14.0" />
+                  </font>
+              </Label>
+         </children>
+      </Group>
+        <Label layoutX="280.0" layoutY="406.0" text="A" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="281.0" layoutY="436.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/6.PNG" />
+         </image>
+      </ImageView>
+    </children>
+</AnchorPane>

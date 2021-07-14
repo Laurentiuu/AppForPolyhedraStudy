@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ColorPicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="110.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Controller">
+   <effect>
+      <Lighting>
+         <bumpInput>
+            <Shadow />
+         </bumpInput>
+      </Lighting>
+   </effect>
+   <children>
+      <BorderPane id="mainPane" fx:id="mainPane" layoutX="-1.0" layoutY="-2.0" prefHeight="600.0" prefWidth="1150.0">
+         <left>
+            <VBox fx:id="mainLeft" prefHeight="541.0" prefWidth="323.0" style="-fx-background-color: #d9d9d9;" BorderPane.alignment="CENTER">
+               <children>
+                  <Label prefHeight="18.0" prefWidth="349.0" text="Lungimea bazei">
+                     <VBox.margin>
+                        <Insets left="10.0" top="10.0" />
+                     </VBox.margin>
+                  </Label>
+                  <TextField fx:id="tf1" prefHeight="26.0" prefWidth="270.0" promptText="CM">
+                     <VBox.margin>
+                        <Insets left="10.0" right="10.0" />
+                     </VBox.margin>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </TextField>
+                  <Label text="Lățimea bazei și baza superioară(la trunchiul de piramidă)">
+                     <VBox.margin>
+                        <Insets left="10.0" top="20.0" />
+                     </VBox.margin>
+                  </Label>
+                  <TextField fx:id="tf2" promptText="CM">
+                     <VBox.margin>
+                        <Insets left="10.0" right="10.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </TextField>
+                  <Label layoutX="10.0" layoutY="55.0" text="Apotema">
+                     <VBox.margin>
+                        <Insets left="10.0" top="20.0" />
+                     </VBox.margin>
+                  </Label>
+                  <TextField fx:id="tf3" layoutX="10.0" layoutY="73.0" promptText="CM">
+                     <VBox.margin>
+                        <Insets left="10.0" right="10.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </TextField>
+                  <Label layoutX="10.0" layoutY="100.0" text="Înălțimea">
+                     <VBox.margin>
+                        <Insets left="10.0" top="20.0" />
+                     </VBox.margin>
+                  </Label>
+                  <TextField fx:id="tf4" layoutX="10.0" layoutY="118.0" promptText="CM">
+                     <VBox.margin>
+                        <Insets left="10.0" right="10.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </TextField>
+                  <Button mnemonicParsing="false" onAction="#calcBtn" prefHeight="45.0" prefWidth="120.0" text="Calculează">
+                     <VBox.margin>
+                        <Insets left="120.0" top="20.0" />
+                     </VBox.margin>
+                  </Button>
+                  <Button layoutX="130.0" layoutY="413.0" mnemonicParsing="false" onAction="#simetrice" prefHeight="38.0" prefWidth="214.0" text="Generare simetrice">
+                     <VBox.margin>
+                        <Insets left="70.0" top="30.0" />
+                     </VBox.margin>
+                  </Button>
+                  <HBox prefHeight="38.0" prefWidth="270.0">
+                     <children>
+                        <ColorPicker fx:id="color" prefHeight="33.0" prefWidth="156.0">
+                           <HBox.margin>
+                              <Insets left="10.0" />
+                           </HBox.margin>
+                        </ColorPicker>
+                        <Button mnemonicParsing="false" onAction="#colorBtn" prefHeight="34.0" prefWidth="130.0" text="Colorează">
+                           <HBox.margin>
+                              <Insets left="20.0" />
+                           </HBox.margin>
+                        </Button>
+                     </children>
+                     <VBox.margin>
+                        <Insets top="20.0" />
+                     </VBox.margin>
+                  </HBox>
+                  <HBox prefHeight="38.0" prefWidth="270.0">
+                     <children>
+                        <Button fx:id="romBtn" mnemonicParsing="false" onAction="#romana" prefHeight="35.0" prefWidth="65.0">
+                           <HBox.margin>
+                              <Insets />
+                           </HBox.margin>
+                        </Button>
+                        <Button fx:id="engBtn" mnemonicParsing="false" onAction="#engleza" prefHeight="35.0" prefWidth="65.0">
+                           <HBox.margin>
+                              <Insets left="10.0" />
+                           </HBox.margin>
+                        </Button>
+                        <Button fx:id="frBtn" mnemonicParsing="false" onAction="#franceza" prefHeight="35.0" prefWidth="65.0">
+                           <HBox.margin>
+                              <Insets left="10.0" />
+                           </HBox.margin>
+                        </Button>
+                        <Button fx:id="gerBtn" layoutX="241.0" layoutY="10.0" mnemonicParsing="false" onAction="#germana" prefHeight="35.0" prefWidth="65.0">
+                           <HBox.margin>
+                              <Insets left="10.0" />
+                           </HBox.margin>
+                        </Button>
+                     </children>
+                     <VBox.margin>
+                        <Insets top="20.0" />
+                     </VBox.margin>
+                  </HBox>
+               </children></VBox>
+         </left>
+         <top>
+            <HBox fx:id="mainTop" prefHeight="59.0" prefWidth="1500.0" style="-fx-background-color: #b3b3b3;" BorderPane.alignment="CENTER">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#btn1" prefHeight="31.0" prefWidth="172.0" text="Prismă">
+                     <HBox.margin>
+                        <Insets left="15.0" right="20.0" top="15.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font></Button>
+                  <Button id="btn1" mnemonicParsing="false" onAction="#btn2" prefHeight="31.0" prefWidth="200.0" text="Paralelipiped dreptunghic">
+                     <HBox.margin>
+                        <Insets right="15.0" top="15.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font></Button>
+                  <Button mnemonicParsing="false" onAction="#btn3" prefHeight="31.0" prefWidth="170.0" text="Cub">
+                     <HBox.margin>
+                        <Insets right="15.0" top="15.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font></Button>
+                  <Button mnemonicParsing="false" onAction="#btn4" prefHeight="31.0" prefWidth="170.0" text="Piramidă">
+                     <HBox.margin>
+                        <Insets right="15.0" top="15.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font></Button>
+                  <Button mnemonicParsing="false" onAction="#btn5" prefHeight="31.0" prefWidth="170.0" text="Tetraedru">
+                     <HBox.margin>
+                        <Insets right="15.0" top="15.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font></Button>
+                  <Button mnemonicParsing="false" onAction="#btn6" prefHeight="31.0" prefWidth="160.0" text="Trunchi de piramidă">
+                     <HBox.margin>
+                        <Insets right="15.0" top="15.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font></Button>
+               </children>
+            </HBox>
+         </top>
+         <center>
+            <VBox prefHeight="200.0" prefWidth="404.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Group fx:id="textOpen">
+                     <children>
+                        <Label layoutX="220.0" prefHeight="78.0" prefWidth="572.0" text="Poliedre regulate" textAlignment="CENTER">
+                           <font>
+                              <Font name="System Bold Italic" size="48.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="100.0" layoutY="78.4000015258789" prefHeight="48.0" prefWidth="780.0" text="Definiție: Un poliedru convex P se numește poliedru regulat dacă fiecare vârf">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="20.0" layoutY="126.39999389648438" prefHeight="52.0" prefWidth="780.0" text="aparține aceluiași număr de muchii, toate fețele sunt suprafețe poligonale regulate">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="20.0" layoutY="178.39999389648438" prefHeight="42.0" prefWidth="780.0" text="congruente și toate unghiurile diedre determinate de fețe cu muchie comună">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="20.0" layoutY="220.8000030517578" prefHeight="42.0" prefWidth="780.0" text="sunt congruente.">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="100.0" layoutY="263.20001220703125" prefHeight="54.0" prefWidth="780.0" text="Relația lui Euler: Dacă v,m,f reprezintă respectiv numărul vârfurilor, muchiilor">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="20.0" layoutY="317.6000061035156" prefHeight="46.0" prefWidth="780.0" text="și fețelor unui  poliedru convex, atunci:">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                        </Label>
+                        <Label layoutY="364.0" prefHeight="44.0" prefWidth="827.0" text="                                                                        v-m+f=2">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Group>
+               </children>
+            </VBox>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>

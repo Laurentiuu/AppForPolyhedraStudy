@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="540.0" prefWidth="758.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <Group layoutX="-182.0" layoutY="60.0">
+            <children>
+                <Line endX="610.98583984375" endY="99.20001220703125" startX="535.74755859375" startY="282.5858459472656" strokeWidth="2.0" />
+                <Line endX="561.5333251953125" endY="311.66668701171875" startX="704.8141479492188" startY="283.5858459472656" strokeWidth="2.0" style="-fx-stroke-dash-array: 5;" />
+                <Line endX="504.74755859375" endY="306.5858459472656" layoutX="31.0" layoutY="-23.0" startX="673.8141479492188" startY="306.5858459472656" strokeWidth="2.0" style="-fx-stroke-dash-array: 5;" />
+                <Line endX="811.3999633789062" endY="267.0000305175781" layoutX="-108.0" layoutY="18.0" startX="697.7071533203125" startY="324.3475646972656" strokeWidth="2.0" />
+                <Line endX="580.5333251953125" endY="317.933349609375" layoutX="8.0" layoutY="25.0" startX="526.74755859375" startY="259.5858459472656" strokeWidth="2.0" />
+                <Line endX="663.4000244140625" endY="246.78579711914062" layoutX="-50.0" layoutY="-150.0" startX="754.8141479492188" startY="433.5858459472656" strokeWidth="2.0" />
+                <Line endX="472.4000244140625" endY="97.78579711914062" layoutX="141.0" layoutY="-1.0" startX="447.29290771484375" startY="341.933349609375" strokeWidth="2.0" />
+                <Line endX="446.4000244140625" endY="120.78579711914062" layoutX="166.0" layoutY="-23.0" startX="446.4000244140625" startY="323.8000183105469" strokeWidth="2.0" style="-fx-stroke-dash-array: 5;" />
+            <Line endX="524.74755859375" endY="274.5858459472656" layoutX="10.0" layoutY="10.0" startX="643.2666625976562" startY="299.0000305175781" strokeWidth="2.0" style="-fx-stroke-dash-array: 5;" />
+            <Line endX="461.4000244140625" endY="88.78579711914062" layoutX="151.0" layoutY="9.0" startX="503.68084716796875" startY="301.4142761230469" strokeWidth="2.0" />
+                <Label layoutX="615.0" layoutY="305.0" text="O" />
+                <Label layoutX="586.0" layoutY="344.0" text="B" />
+              <Label layoutX="523.0" layoutY="274.0" text="A" />
+            <Label layoutX="656.0" layoutY="305.0" text="M" />
+            </children>
+        </Group>
+        <Group accessibleRole="NODE" layoutX="28.0" layoutY="143.0">
+            <children>
+                <Label fx:id="l1" accessibleRole="PARENT" prefHeight="33.0" prefWidth="158.0" text="Al =">
+                    <font>
+                        <Font name="System Bold" size="14.0" />
+                    </font>
+                </Label>
+                <Label fx:id="l2" accessibleRole="PARENT" layoutY="20.0" prefHeight="33.0" prefWidth="158.0" text="Ab =">
+                    <font>
+                        <Font name="System Bold" size="14.0" />
+                    </font>
+                </Label>
+                <Label fx:id="l3" accessibleRole="PARENT" layoutY="40.0" prefHeight="33.0" prefWidth="158.0" text="At =">
+                    <font>
+                        <Font name="System Bold" size="14.0" />
+                    </font>
+                </Label>
+                <Label fx:id="l4" accessibleRole="PARENT" layoutY="60.0" prefHeight="33.0" prefWidth="158.0" text="V =">
+                    <font>
+                        <Font name="System Bold" size="14.0" />
+                    </font>
+                </Label>
+            </children>
+        </Group>
+      <Group fx:id="textTetraedru" layoutX="11.0" layoutY="14.0">
+         <children>
+              <Label layoutY="40.0" text="- Tetraedrul este cel mai simplu tip de piramidă, la care baza este triunghi, de aceea mai este denumit și piramidă ">
+                  <font>
+                      <Font size="14.0" />
+                  </font>
+            </Label>
+              <Label layoutY="80.0" text="- Piramida patrulateră are: 4 vârfuri, 6 muchii și 4 fețe.">
+                  <font>
+                      <Font size="14.0" />
+                  </font>
+            </Label>
+              <Label text="- Tetraedrul este un poliedru alcătuit din patru fețe triunghiulare, oricare trei dintre ele intersectându-se într-unul ">
+                  <font>
+                      <Font size="14.0" />
+                  </font>
+              </Label>
+              <Label layoutX="378.0" layoutY="111.0" text="Tetraedru regulat">
+                  <font>
+                      <Font name="System Bold" size="12.0" />
+                  </font>
+              </Label>
+            <Label layoutY="100.0" text="- Muchiile bazei nu sunt congruente cu muchiile laterale.">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutY="20.0" text="din cele patru vârfuri.">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutY="60.0" text="triunghiulară.">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </Group>
+        <Label layoutX="438.0" layoutY="138.0" prefHeight="17.0" prefWidth="14.0" text="S" />
+          <Label layoutX="528.0" layoutY="336.0" prefHeight="17.0" prefWidth="14.0" text="C" />
+      <ImageView fitHeight="105.0" fitWidth="237.0" layoutX="323.0" layoutY="420.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/8.PNG" />
+         </image>
+      </ImageView>
+    </children>
+</AnchorPane>

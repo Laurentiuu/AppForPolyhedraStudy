@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="540.0" prefWidth="758.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Group layoutX="240.0" layoutY="398.0">
+         <children>
+            <Line endX="-99.99998474121094" endY="-134.59999084472656" startX="-100.0" strokeWidth="2.0" />
+            <Line endX="-54.19999694824219" endY="34.800018310546875" startX="-100.0" strokeWidth="2.0" />
+            <Line endX="21.314163208007812" endY="-0.2929229736328125" startX="-53.492897033691406" startY="35.50714111328125" strokeWidth="2.0" />
+            <Line endX="19.39996337890625" endY="-1.52587890625E-5" startX="-100.0" strokeWidth="2.0" style="-fx-stroke-dash-array: 5;" />
+            <Line endX="-99.99998474121094" endY="-134.59999084472656" layoutX="120.0" startX="-100.0" strokeWidth="2.0" />
+            <Line endX="-110.70709228515625" endY="-145.30711364746094" layoutX="130.0" layoutY="10.0" startX="-229.2928924560547" startY="-145.30711364746094" strokeWidth="2.0" />
+            <Line endX="-54.19999694824219" endY="34.800018310546875" layoutX="-2.0" layoutY="-134.0" startX="-97.29289245605469" startY="-1.3071136474609375" strokeWidth="2.0" />
+            <Line endX="21.79290771484375" endY="-0.8071136474609375" layoutX="-2.0" layoutY="-134.0" startX="-53.49290466308594" startY="35.50714111328125" strokeWidth="2.0" />
+            <Line endX="-56.19999694824219" endY="-97.78575134277344" startX="-54.20000457763672" startY="36.214263916015625" strokeWidth="2.0" />
+            <Label layoutX="-70.0" layoutY="-102.0" text="B'" />
+         </children>
+      </Group>
+      <Group layoutX="-126.0" layoutY="93.0">
+         <children>
+            <Line endX="447.29290771484375" endY="194.1141815185547" startX="447.5" startY="339.4000244140625" strokeWidth="2.0" />
+            <Line endX="448.20709228515625" endY="327.4071044921875" layoutY="12.0" startX="540.7999877929688" startY="327.4071044921875" strokeWidth="2.0" />
+            <Line endX="446.29998779296875" endY="193.40708923339844" layoutX="93.0" startX="447.5" startY="339.4000244140625" strokeWidth="2.0" />
+            <Line endX="450.20709228515625" endY="327.40704345703125" layoutX="-2.0" layoutY="-134.0" startX="540.7999877929688" startY="327.4071044921875" strokeWidth="2.0" />
+            <Line endX="447.70709228515625" endY="338.9071044921875" startX="478.492919921875" startY="305.6929016113281" strokeWidth="2.0" style="-fx-stroke-dash-array: 5;" />
+            <Line endX="448.20709228515625" endY="327.4071044921875" layoutX="31.0" layoutY="-23.0" startX="541.7070922851562" startY="327.4071044921875" strokeWidth="2.0" style="-fx-stroke-dash-array: 5;" />
+            <Line endX="446.20001220703125" endY="193.9857940673828" layoutX="32.0" layoutY="-36.0" startX="447.5" startY="339.4000244140625" strokeWidth="2.0" style="-fx-stroke-dash-array: 5;" />
+            <Line endX="446.29998779296875" endY="193.90708923339844" layoutX="125.0" layoutY="-36.0" startX="447.5" startY="339.4000244140625" strokeWidth="2.0" />
+            <Line endX="448.20709228515625" endY="327.4071044921875" layoutX="30.0" layoutY="-170.0" startX="540.7999877929688" startY="327.4071044921875" strokeWidth="2.0" />
+            <Line endX="449.0" endY="340.4071044921875" layoutX="-1.0" layoutY="-147.0" startX="479.8500061035156" startY="304.2786865234375" strokeWidth="2.0" />
+            <Line endX="444.29998779296875" endY="341.9071044921875" layoutX="95.0" layoutY="-148.0" startX="476.29998779296875" startY="305.9071044921875" strokeWidth="2.0" />
+            <Line endX="447.70709228515625" endY="338.9071044921875" layoutX="93.0" layoutY="-1.0" startX="478.492919921875" startY="305.6929016113281" strokeWidth="2.0" />
+            <Label layoutX="466.0" layoutY="291.0" prefHeight="17.0" prefWidth="14.0" text="D" />
+            <Label layoutX="432.0" layoutY="190.0" text="A'" />
+            <Label layoutX="542.0" layoutY="190.0" text="B'" />
+            <Label layoutX="575.0" layoutY="148.0" prefHeight="17.0" prefWidth="14.0" text="C'" />
+            <Label layoutX="467.0" layoutY="143.0" prefHeight="17.0" prefWidth="14.0" text="D'" />
+         </children>
+      </Group>
+      <Group layoutX="84.0" layoutY="61.0">
+         <children>
+            <Line endX="543.4071044921875" endY="363.31414794921875" startX="543.7000122070312" startY="230.59288024902344" strokeWidth="2.0" />
+            <Line endX="458.0928955078125" endY="361.89996337890625" startX="458.0928955078125" startY="231.09288024902344" strokeWidth="2.0" />
+            <Line endX="543.2000122070312" endY="230.59288024902344" startX="458.5928955078125" startY="230.59288024902344" strokeWidth="2.0" />
+            <Line endX="543.4071044921875" endY="362.6070861816406" startX="458.79998779296875" startY="362.6070556640625" strokeWidth="2.0" />
+            <Line endX="534.1141967773438" endY="352.6070556640625" layoutX="10.0" layoutY="10.0" startX="591.4141845703125" startY="333.20001220703125" strokeWidth="2.0" />
+            <Line endX="580.7070922851562" endY="322.492919921875" layoutX="20.0" layoutY="20.0" startX="561.3928833007812" startY="306.19293212890625" strokeWidth="2.0" style="-fx-stroke-dash-array: 5;" />
+            <Line endX="522.2929077148438" endY="353.0928955078125" layoutX="-87.0" layoutY="-9.0" startX="591.2999877929688" startY="334.69293212890625" strokeWidth="2.0" style="-fx-stroke-dash-array: 5;" />
+            <Line endX="540.8928833007812" endY="363.69293212890625" layoutX="40.0" layoutY="-38.0" startX="464.79998779296875" startY="363.69293212890625" strokeWidth="2.0" style="-fx-stroke-dash-array: 5;" />
+            <Line endX="534.4071044921875" endY="333.88580322265625" layoutX="10.0" layoutY="-104.0" startX="590.7000122070312" startY="314.78582763671875" strokeWidth="2.0" />
+            <Line endX="601.3999633789062" endY="211.00001525878906" startX="581.4071044921875" startY="193.8857879638672" strokeWidth="2.0" />
+            <Line endX="436.0000305175781" endY="212.3857879638672" startX="505.933349609375" startY="194.20001220703125" strokeWidth="2.0" />
+            <Line endX="579.7999877929688" endY="194.48582458496094" startX="505.4000244140625" startY="194.48580932617188" strokeWidth="2.0" />
+            <Line endX="428.5928955078125" endY="332.39996337890625" layoutX="30.0" layoutY="30.0" startX="406.0" startY="314.79998779296875" strokeWidth="2.0" />
+            <Line endX="458.0928955078125" endY="230.09286499023438" startX="435.2929382324219" startY="213.09291076660156" strokeWidth="2.0" />
+            <Line endX="544.2929077148438" endY="353.0928955078125" layoutX="-109.0" layoutY="-9.0" startX="543.8787231445312" startY="222.0928955078125" strokeWidth="2.0" />
+            <Line endX="543.685791015625" endY="361.48583984375" layoutX="37.0" layoutY="-36.0" startX="543.7000122070312" startY="230.59288024902344" strokeWidth="2.0" style="-fx-stroke-dash-array: 5;" />
+            <Line endX="458.007080078125" endY="375.98583984375" layoutX="47.0" layoutY="-51.0" startX="458.29998779296875" startY="246.19293212890625" strokeWidth="2.0" style="-fx-stroke-dash-array: 5;" />
+            <Line endX="543.4141845703125" endY="355.20001220703125" layoutX="58.0" layoutY="-12.0" startX="543.4071044921875" startY="223.492919921875" strokeWidth="2.0" />
+            <Label layoutX="496.0" layoutY="310.0" prefHeight="18.0" prefWidth="2.0" text="E" />
+            <Label layoutX="584.0" layoutY="311.0" prefHeight="11.0" prefWidth="16.0" text="D" />
+            <Label layoutX="446.0" layoutY="230.0" prefHeight="18.0" prefWidth="13.0" text="A'" />
+            <Label layoutX="547.0" layoutY="230.0" text="B'" />
+            <Label layoutX="604.0" layoutY="201.0" prefHeight="17.0" prefWidth="14.0" text="C'" />
+         </children>
+      </Group>
+      <Group accessibleRole="NODE" layoutX="131.0" layoutY="125.0">
+         <children>
+            <Label accessibleRole="PARENT" prefHeight="33.0" prefWidth="158.0" text="Al =">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label accessibleRole="PARENT" layoutY="20.0" prefHeight="33.0" prefWidth="158.0" text="Ab =">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label accessibleRole="PARENT" layoutY="40.0" prefHeight="33.0" prefWidth="158.0" text="At =">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label accessibleRole="PARENT" layoutY="60.0" prefHeight="33.0" prefWidth="158.0" text="V =">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </Group>
+      <Group accessibleRole="NODE" layoutX="339.0" layoutY="125.0">
+         <children>
+            <Label accessibleRole="PARENT" prefHeight="33.0" prefWidth="158.0" text="Al =">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label accessibleRole="PARENT" layoutY="20.0" prefHeight="33.0" prefWidth="158.0" text="Ab =">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label accessibleRole="PARENT" layoutY="40.0" prefHeight="33.0" prefWidth="158.0" text="At =">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label accessibleRole="PARENT" layoutY="60.0" prefHeight="33.0" prefWidth="158.0" text="V =">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </Group>
+      <Group accessibleRole="NODE" layoutX="540.0" layoutY="125.0">
+         <children>
+            <Label accessibleRole="PARENT" prefHeight="33.0" prefWidth="158.0" text="Al =">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label accessibleRole="PARENT" layoutY="20.0" prefHeight="33.0" prefWidth="158.0" text="Ab =">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label accessibleRole="PARENT" layoutY="40.0" prefHeight="33.0" prefWidth="158.0" text="At =">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label accessibleRole="PARENT" layoutY="60.0" prefHeight="33.0" prefWidth="158.0" text="V =">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </Group>
+      <Group fx:id="textPrisma" layoutX="11.0" layoutY="14.0">
+         <children>
+            <Label layoutY="20.0" text="- Prisma dreaptă care are baza un poligon regulat se numeste PRISMĂ REGULATĂ.">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutY="40.0" text="- Înălțimea(h) a unei prisme drepte este egală cu lungimea muchiei laterale.">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutY="60.0" text="- Al (AL) este suma ariilor fețelor laterale iar At (At) este suma dintre Al  și ariile celor două baze.">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutY="80.0" text="- V ul(V) unei prisme este egal cu produsul dintre Ab  și înălțime.">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label text="- O prismă care are muchiile laterale perpendiculare pe planele bazelor se numește PRISMĂ DREAPTĂ.">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="106.0" layoutY="204.0" text="Prismă regulata triunghiulară">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="310.0" layoutY="204.0" text="Prismă regulata patrulateră">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="524.0" layoutY="204.0" text="Prismă regulata hexagonală">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+         </children>
+      </Group>
+      <Label layoutX="131.0" layoutY="398.0" text="A" />
+      <Label layoutX="181.0" layoutY="431.0" text="B" />
+      <Label layoutX="264.0" layoutY="388.0" prefHeight="17.0" prefWidth="14.0" text="C" />
+      <Label layoutX="131.0" layoutY="248.0" text="A'" />
+      <Label layoutX="262.0" layoutY="250.0" prefHeight="17.0" prefWidth="14.0" text="C'" />
+      <Label layoutX="311.0" layoutY="428.0" text="A" />
+      <Label layoutX="418.0" layoutY="428.0" text="B" />
+      <Label layoutX="450.0" layoutY="387.0" prefHeight="17.0" prefWidth="14.0" text="C" />
+      <Label layoutX="536.0" layoutY="423.0" prefHeight="18.0" prefWidth="2.0" text="A" />
+      <Label layoutX="607.0" layoutY="426.0" text="B" />
+      <Label layoutX="690.0" layoutY="396.0" prefHeight="17.0" prefWidth="14.0" text="C" />
+      <Label layoutX="509.0" layoutY="395.0" prefHeight="18.0" prefWidth="2.0" text="F" />
+      <Label layoutX="583.0" layoutY="241.0" prefHeight="18.0" prefWidth="12.0" text="E'" />
+      <Label layoutX="661.0" layoutY="239.0" prefHeight="11.0" prefWidth="16.0" text="D'" />
+      <Label layoutX="515.0" layoutY="256.0" prefHeight="18.0" prefWidth="12.0" text="F'" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="88.0" layoutY="446.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/1.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="299.0" layoutY="449.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/2.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="514.0" layoutY="445.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/3.PNG" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
